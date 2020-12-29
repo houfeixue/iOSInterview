@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  InterView
+//
+//  Created by heshenghui on 2019/10/17.
+//  Copyright © 2019 Company. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <ReactiveObjC/ReactiveObjC.h>
+#import <AFNetworking/AFNetworking.h>
+#import <ReactiveObjC/RACReturnSignal.h>
+#import <SDWebImage/SDWebImage.h>
+
+#endif /* PrefixHeader_pch */
